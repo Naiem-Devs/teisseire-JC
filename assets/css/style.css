@@ -1,0 +1,538 @@
+/*   Theme default css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* ======font family=========
+font-family: 'Dom Casual Std';
+font-family: 'Myriad Pro';
+font-family: "Open Sans", sans-serif;
+*/
+
+:root {
+
+--thmColor: #00613F;
+--greenColor: #51AB34;
+
+--f18: 18px;
+--f20: 20px;
+--f22: 22px;
+--f24: 24px;
+--f28: 28px;
+--f30: 30px;
+--f32: 32px;
+--f36: 36px;
+--f40: 40px;
+--f48: 48px;
+}
+
+
+body {
+  font-weight: 400;
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #00613f;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+a:focus,
+button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+a,
+button {
+  color: inherit;
+  outline: medium none;
+  text-decoration: none;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+  outline: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0px;
+  font-weight: 700;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+
+
+/* default-css END 
+================================== */
+
+
+
+
+/*============home Area Start =============*/
+
+.position__img img {
+  position: absolute;
+}
+
+.h-logo {
+  top: 66px;
+  left: -240px;
+  max-width: 500px;
+}
+
+.SIMUL-BOX {
+  bottom: 0;
+  left: 65%;
+  max-width: 750px;
+}
+
+.home__content {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.home__content a {
+  display: block;
+}
+
+
+.home__content a.OFFRE {
+  margin: 70px 0 165px;
+}
+
+.je__btn {
+  font-size: 52px;
+  font-weight: 700;
+  font-family: 'Dom Casual Std';
+  background: #51AB34;
+  color: #fff;
+  width: max-content;
+  margin: auto;
+  border-radius: 50px;
+  padding: 4px 40px;
+  line-height: normal;
+}
+
+/*============home Area End =============*/
+
+
+/*============ Area Start =============*/
+
+/*============ Area End =============*/
+
+
+/*============footer Area Start =============*/
+.footer-area {
+  background: #00623F;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 10px 0;
+}
+
+.footer-content ul li a {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'Myriad Pro';
+  font-weight: 700;
+}
+
+.footer-content ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.f-logo {
+  display: block;
+  max-width: 74px;
+}
+
+
+/*============footer Area End =============*/
+
+
+/*============contact__form Area Start =============*/
+
+.mainBody {
+  background: url(../img/body-bg.png);
+  background-size: cover;
+  padding-bottom: 50px;
+  min-height: calc(100vh - 66px);
+  padding-top: 10px;
+}
+
+.logo {
+  max-width: 240px;
+  display: block;
+  margin: auto;
+  margin-bottom: -60px;
+  position: relative;
+}
+
+.contact__form {
+  background: #fff;
+  padding-top: 85px;
+  padding-left: 60px;
+  padding-right: 30px;
+  margin-bottom: 50px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 1040px;
+  margin-inline: auto;
+}
+
+.contact__form>a.je__btn {
+  position: relative;
+  bottom: -32px;
+}
+
+.contact__form>.radio__blk {
+  align-items: flex-start;
+}
+
+.contact__form>.radio__blk small {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  display: block;
+}
+
+
+.contact__form h1 {
+  font-family: 'Dom Casual Std';
+  font-weight: normal;
+  text-align: center;
+  color: var(--thmColor);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.radio__wrp {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  max-width: 700px;
+}
+
+.radio__blk {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.radio__blk input {
+  width: 22px;
+  height: 22px;
+  box-shadow: inset 0 0 5px #0006;
+  border-radius: 50%;
+  appearance: none;
+  position: relative;
+  flex-shrink: 0;
+  border: 1px solid transparent;
+}
+
+.radio__blk input:checked {
+  border-color: var(--thmColor);
+}
+
+.radio__blk input:after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: var(--thmColor);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.radio__blk input:checked:after {
+  opacity: 1;
+}
+
+.input__wrp {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.input__blk {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+}
+
+.input__blk select {
+  width: 100%;
+  border-radius: 30px;
+  font-size: 11px;
+  box-shadow: inset 0 0 5px #0006;
+  border: none;
+  padding: 0 8px;
+  height: 23px;
+  outline: none;
+}
+
+.input__blk label {
+  flex-shrink: 0;
+}
+
+.input__blk input {
+  width: 100%;
+  height: 21px;
+  border-radius: 23px;
+  box-shadow: inset 0 0 5px #0006;
+  border: none;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.file__upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.file__upload small {
+  font-size: 12px;
+  max-width: 420px;
+  margin-top: 8px;
+}
+
+
+.file__upload span {
+  min-height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.file__upload input {
+  display: none;
+}
+
+
+.file__upload label {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  background: var(--thmColor);
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 50px;
+}
+
+.g-recaptcha {
+  width: max-content;
+  margin: auto;
+}
+
+
+.file__upload input::-webkit-file-upload-button {
+  display: none;
+}
+
+/*============contact__form Area End =============*/
+
+
+
+/*============ Area Start =============*/
+.gagne__content {
+    background: #fff;
+    text-align: center;
+    padding-top: 90px;
+    border-radius: 30px;
+    max-width: 1035px;
+    margin-inline: auto;
+    overflow: hidden;
+    width: calc(100% - 100px);
+}
+
+
+.COFFRET__content {
+    padding-bottom: 50px;
+}
+
+.COFFRET__content h3 {
+    font-family: 'Dom Casual Std';
+    font-size: 53px;
+    color: var(--greenColor);
+    max-width: 400px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.COFFRET__content .flex {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.COFFRET__content .flex i {
+    max-width: 520px;
+    display: block;
+    padding-left: 20px;
+}
+
+.gagne__content small {
+    font-size: 16px;
+}
+
+.gagne__content > h1 {
+    color: var(--thmColor);
+    font-family: 'Dom Casual Std';
+    font-size: 130px;
+}
+
+
+.week-end__content h2 {
+    font-size: 60px;
+    font-family: 'Dom Casual Std';
+    text-transform: uppercase;
+    color: var(--greenColor);
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.week-end__content i {
+    height: 320px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.week-end__content i img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+.coupon__content {padding-bottom: 60px;}
+
+.coupon__content button {
+    font-size: 25px;
+    font-weight: 700;
+    background: var(--thmColor);
+    color: #fff;
+    padding: 5px 30px;
+    border-radius: 30px;
+}
+
+.coupon__content h3 {
+    font-size: 49px;
+    font-family: 'Dom Casual Std';
+    text-transform: uppercase;
+    color: var( --thmColor);
+    margin: 30px 0 15px;
+}
+
+.coupon__content h1 {
+    margin: 0;
+    font-size: 99px;
+    text-transform: uppercase;
+    font-family: 'Dom Casual Std';
+    line-height: 1.05;
+    color: var(--greenColor);
+}
+
+.coupon__content h2 {
+    text-transform: uppercase;
+    font-size: 87px;
+    font-family: 'Dom Casual Std';
+    color: var(--greenColor);
+    margin: 0;
+}
+
+/*============ Area End =============*/

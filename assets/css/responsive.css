@@ -1,0 +1,503 @@
+/* Big screen :1200px. */
+@media (min-width: 1700px) and (max-width: 1900px) {
+    .SIMUL-BOX {
+        max-width: 650px;
+    }
+    
+    .h-logo {
+        max-width: 400px;
+        left: -100px;
+    }
+    
+    .home__content a.OFFRE {
+        scale: .9;
+        margin: 45px 0 146px;
+    }
+    
+    a.gagnant {
+        max-width: 470px;
+        margin: auto;
+    }
+    
+    .home__content {
+        padding-bottom: 42px;
+    }
+    
+    .home-page {background-size: cover;}
+
+}
+
+/* Big screen :1200px. */
+@media (min-width: 1551px) and (max-width: 1699px) {
+    .SIMUL-BOX {
+        max-width: 521px;
+    }
+    
+    .h-logo {
+        max-width: 320px;
+        left: 5px;
+    }
+    
+    .home__content a.OFFRE {
+        scale: .9;
+        margin: 45px auto 146px;
+        max-width: 600px;
+    }
+    
+    a.gagnant {
+        max-width: 461px;
+        margin: auto;
+    }
+    
+    .home__content {
+        padding-bottom: 42px;
+    }
+    
+    .home-page {background-size: cover;}
+
+}
+/* Big screen :1200px. */
+@media (min-width: 1420px) and (max-width: 1550px) {
+    .SIMUL-BOX {
+        max-width: 521px;
+    }
+    
+    .h-logo {
+        max-width: 320px;
+        left: 5px;
+    }
+    
+    .home__content a.OFFRE {
+        scale: .9;
+        margin: 45px auto 146px;
+        max-width: 540px;
+    }
+    
+    a.gagnant {
+        max-width: 420px;
+        margin: auto;
+    }
+    
+    .home__content {
+        padding-bottom: 42px;
+    }
+    
+    .home-page {background-size: cover;}
+
+}
+
+
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .SIMUL-BOX {
+        max-width: 425px;
+    }
+    
+    .h-logo {
+        max-width: 273px;
+        left: 5px;
+    }
+    
+    .home__content a.OFFRE {
+        /* scale: .9; */
+        margin: 50px auto 167px;
+        max-width: 39%;
+    }
+
+.je__btn {
+    font-size: 38px;
+}
+
+.contact__form>a.je__btn {
+    bottom: -26px;
+}
+    
+    a.gagnant {
+        max-width: 350px;
+        margin: auto;
+    }
+    
+    .home__content {
+        padding-bottom: 42px;
+    }
+    
+    .home-page {background-size: cover;}
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .SIMUL-BOX {
+        max-width: 349px;
+    }
+    
+    .h-logo {
+        max-width: 220px;
+        left: 5px;
+    }
+    
+    .home__content a.OFFRE {
+        /* scale: .9; */
+        margin: 50px auto 167px;
+        max-width: 39%;
+    }
+
+.je__btn {
+    font-size: 34px;
+}
+
+.contact__form>a.je__btn {
+    bottom: -26px;
+}
+    
+    a.gagnant {
+        max-width: 320px;
+        margin: auto;
+    }
+    
+    .home__content {
+        padding-bottom: 42px;
+    }
+    
+    .home-page {background-size: cover;}
+    .footer-content,.footer-content ul{
+    gap: 28px;
+}
+.gagne__content > h1 {
+    font-size: 96px;
+}
+
+.week-end__content h2 {
+    font-size: 50px;
+}
+.COFFRET__content .flex i {
+    max-width: 460px;
+}
+
+.COFFRET__content h3 {
+    font-size: 44px;
+    max-width: 360px;
+}
+.coupon__content h1 {
+    font-size: 80px;
+}
+
+.coupon__content h2 {
+    font-size: 70px;
+}
+
+.coupon__content h3 {
+    font-size: 38px;
+    margin-top: 20px;
+}
+
+.coupon__content button {
+    font-size: 20px;
+}
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .SIMUL-BOX {
+        max-width: 274px;
+    }
+    
+    .h-logo {
+        max-width: 173px;
+        left: 5px;
+    }
+    
+    .home__content a.OFFRE {
+        /* scale: .9; */
+        margin: 50px auto 160px;
+        max-width: 46%;
+    }
+
+.je__btn {
+    font-size: 28px;
+    padding: 6px 28px;
+}
+    
+    a.gagnant {
+        max-width: 250px;
+        margin: auto;
+    }
+    
+    .home__content {
+        padding-bottom: 25px;
+    }
+    
+    .home-page {background-size: cover;}
+    .footer-content,.footer-content ul{
+    gap: 28px;
+}
+
+.footer-content {
+    flex-direction: column;
+    gap: 4px;
+}
+
+.footer-content ul li a {
+    font-size: 16px;
+}
+.logo {
+    max-width: 170px;
+}
+.contact__form {
+    padding-left: 30px;
+}
+
+.input__wrp {
+    flex-wrap: wrap;
+}
+
+.radio__wrp {
+    max-width: 80%;
+}
+
+.contact__form>a.je__btn {
+    bottom: -20px;
+}
+.gagne__content > h1 {
+    font-size: 78px;
+}
+
+.week-end__content h2 {
+    font-size: 40px;
+}
+
+.week-end__content i {
+    height: 270px;
+}
+.COFFRET__content .flex i {
+    max-width: 300px;
+}
+
+.COFFRET__content h3 {
+    font-size: 35px;
+    max-width: 320px;
+}
+
+.coupon__content h1 {
+    font-size: 70px;
+}
+
+.coupon__content h2 {
+    font-size: 52px;
+}
+
+.coupon__content h3 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+.coupon__content button {
+    font-size: 16px;
+}
+.mainBody{
+    min-height: calc(100vh - 96px);
+}
+
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .SIMUL-BOX {
+        max-width: 293px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 89px;
+    }
+    
+    .h-logo {
+        max-width: 90px;
+        left: 5px;
+        top: 87px;
+    }
+    
+    .home__content a.OFFRE {
+        /* scale: .9; */
+        margin: 60px auto 308px;
+        max-width: 71%;
+    }
+
+.je__btn {
+    font-size: 28px;
+    padding: 6px 28px;
+}
+    
+    a.gagnant {
+        max-width: 200px;
+        margin: auto;
+    }
+    
+    .home__content {
+        padding-bottom: 25px;
+    }
+    
+    .home-page {background-size: cover;min-height: calc(100vh - 175px);background-position: top;}
+    .footer-content,.footer-content ul{
+    gap: 7px 28px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-content {
+    flex-direction: column;
+    gap: 20px;
+    max-width: 350px;
+    margin-inline: auto;
+}
+
+.footer-content ul li a {
+    font-size: 16px;
+}
+.logo {
+    max-width: 140px;
+}
+.contact__form {
+    padding-left: 30px;
+    gap: 14px;
+    margin-bottom: 20px;
+}
+
+.mainBody {
+    min-height: calc(100vh - 175px);
+    background-position: right;
+}
+
+body {
+    font-size: 16px;
+}
+
+.contact__form h1 {
+    font-size: 32px;
+}
+
+.input__wrp {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.input__blk {
+    flex-direction: column;
+    align-items: start;
+    gap: 3px;
+}
+
+.input__blk label {
+    font-size: 14px;
+}
+
+.radio__wrp span {
+    width: 100%;
+}
+
+.radio__wrp {
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 300px;
+}
+
+.file__upload label {
+    font-size: 13px;
+    padding: 5px 16px;
+}
+
+.file__upload small {
+    line-height: 14px;
+}
+
+.contact__form > a.je__btn {
+    bottom: -20px;
+}
+.gagne__content > h1 {
+    font-size: 40px;
+}
+
+.gagne__content {
+    width: calc(100% - 50px);
+}
+
+.week-end__content h2 {
+    font-size: 26px;
+    padding: 0 20px;
+}
+
+.gagne__content small {
+    font-size: 14px;
+    max-width: 308px;
+    margin: auto;
+    display: block;
+}
+
+.week-end__content i {
+    height: 200px;
+}
+
+.week-end__content i img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.week-end__content {
+    padding-top: 20px;
+}
+.COFFRET__content .flex i {
+    max-width: 90%;
+    margin: auto;
+    margin-top: 18px;
+}
+
+.COFFRET__content h3 {
+    font-size: 27px;
+    max-width: 320px;
+    text-align: center;
+}
+
+.COFFRET__content .flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.coupon__content h1 {
+    font-size: 42px;
+}
+
+.coupon__content h2 {
+    font-size: 32px;
+    margin: 10px;
+}
+
+.coupon__content h3 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 24px;
+    max-width: 300px;
+    margin-inline: auto;
+}
+
+.coupon__content button {
+    font-size: 14px;
+    max-width: 280px;
+}
+
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {
+    max-width: 100%;
+}
+
+.gagne__content{
+    max-width: 370px;
+}
+ 
+}
